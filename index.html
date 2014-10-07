@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+<body>
+<p>:3</p>
+<script type="text/javascript">
+function AlertIt() {
+	//
+	var myrandom = Math.round(Math.random()*2)
+	//
+	var messages = new Array()
+	messages[0] = "嗯？"
+	messages[1] = "哦？"
+	messages[2] = "啊？"
+	//
+	var links = new Array()
+	links[0] = "http://www.books.com.tw/products/0010537209"
+	links[1] = "http://tw.18dao.net/漢語詞典/哦"
+	links[2] = "http://zh.wikipedia.org/wiki/AH-64阿帕契直升机"
+	links[3] = "http://www.nextmag.com.tw"
+	//
+	var answer = confirm(messages[myrandom])
+	//
+	if (answer){
+		window.location = links[myrandom]
+	} else {
+		window.location = links[3]
+	}
+	
+	// else if(!answer)
+}
+</script>
+<table width="100%" height"100%" border="0">
+  <tr>
+    <td align="center"valign="middle">
+	<p><a href="javascript:AlertIt();"><img src="/Users/how/Desktop/Work/College/round 3/行動裝置程式設計/IndexPhoneGapTest/banana.png" width="auto" height="auto" /></a><p>
+	<p><a href="javascript:AlertIt();"><strong>warning!</strong></a>
+	<p>
+</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
